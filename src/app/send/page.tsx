@@ -3,7 +3,8 @@ import { SendConfirm } from '@/src/components/send/sendConfirm';
 import { SendComplete } from '@/src/components/send/sendComplete';
 
 export default function SendPage() {
-    let step:　number = 3;
+    //処理状況に応じてstepが++されて表示画面が切り替わる
+    let step:　number = 1;
 
     if (step === 1)
         return (<SendInput />)
