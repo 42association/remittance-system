@@ -1,0 +1,6 @@
+/* src/app/globals.css */
+/* 左端と上端の白い線がなくならない */
+body {
+  margin: 0;
+  background-color: gray.700;
+}

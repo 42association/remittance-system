@@ -1,12 +1,42 @@
-import { Container, Flex, Heading, Text } from "@chakra-ui/react";
+import { Box, Heading, VStack } from "@chakra-ui/react";
 
 
 export const HomeTemplate = () => {
     return (
-        <Container>
-            <Flex justifyContent="center" alignItems="center" height="100vh" >
-                <Text fontSize="xl">Home</Text>
-            </Flex>
-        </Container>
-    )
+        <Box
+            justifyContent="center"
+            overflowY="scroll"// 縦方向のスクロールを有効にする
+            height="100vh"
+        >
+            <VStack>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+                <Heading>Home</Heading>
+            </VStack>
+        </Box>
+    );
 }
