@@ -1,13 +1,15 @@
-import {Box, Button, Avatar, Text} from "@chakra-ui/react";
+import {Box, Button, Avatar, Text, Flex} from "@chakra-ui/react";
 
 
 export const SendConfirm = () => {
     return (
-        <Box>
-            <Avatar name='Segun Adebayo' src='//ui-avatars.com/api/?name=Yushi matsui&background=e3ad03&color=ffffff' />
-            <Text fontSize='2xl'>ymatsui</Text>
-            <Text fontSize='6xl'>3pt</Text>
-            <Button>送る</Button>
+        <Box pt="120px" textAlign="center">
+          <Flex justifyContent="center" alignItems="center" mb="42px">
+            <Avatar name="ymatsui" src='//ui-avatars.com/api/?name=Yushi matsui&background=e3ad03&color=ffffff' />
+            <Text ml={"0.5em"} fontSize="32px" color="white">ymatsui</Text>
+          </Flex>
+            <Text fontSize="90px" color="white" lineHeight="1em" mb="65px">3pt</Text>
+            <Button width="160px" height="60px" borderRadius="20px" background="#EF4C4C" fontSize="40px" color="#ffffff">送る</Button>
         </Box>
     );
 }
