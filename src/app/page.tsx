@@ -5,7 +5,6 @@ export const metadata: Metadata = {
     title: "Home",
 };
 
-
 export default function HomePage() {
-    return <HomeTemplate />
+    return <HomeTemplate />;
 }

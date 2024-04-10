@@ -13,7 +13,7 @@ export const LogoImage = () => {
             width="200px"
             height="auto"
             opacity={0.5}
-            filter="invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%)"
+            filter="invert(100%)"
         />
     );
 };
