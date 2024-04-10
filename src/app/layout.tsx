@@ -3,6 +3,7 @@ import { Header } from "../components/layout/header"
 import { MobileContainer } from "../components/layout/mobileContainer"
 import { LogoImage } from "../components/layout/transparentImage"
 import { Providers } from './global'
+import "./globals.css"
 
 export const metadata = {
   title: 'ポイント',
