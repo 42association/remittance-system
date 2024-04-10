@@ -1,6 +1,7 @@
 import { Background } from "../components/layout/background"
 import { Header } from "../components/layout/header"
 import { MobileContainer } from "../components/layout/mobileContainer"
+import { LogoImage } from "../components/layout/transparentImage"
 import { Providers } from './global'
 
 export const metadata = {
@@ -18,9 +19,11 @@ export default function RootLayout({
       <body>
         <Providers>
           <MobileContainer>
-            <Background />
-            <Header />
-            {children}
+            <Background>
+              <LogoImage />
+              {children}
+              <Header />
+            </Background>
           </MobileContainer>
         </Providers>
       </body>
