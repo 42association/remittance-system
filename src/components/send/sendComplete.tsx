@@ -1,11 +1,10 @@
-import { Box, Button, Heading } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
 
 export const SendComplete = () => {
     return (
         <Box>
-            <Heading>送金(完了)</Heading>
+          <Text fontSize='6xl'>Thank you!</Text>
         </Box>
-
     );
 }

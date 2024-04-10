@@ -1,11 +1,9 @@
-import { Box, Button, Heading } from "@chakra-ui/react";
-
+import { Box, Input } from "@chakra-ui/react";
 
 export const SendInput = () => {
     return (
         <Box>
-            <Heading>送金</Heading>
+          <Input placeholder='intra名検索' />
         </Box>
-
     );
 }
