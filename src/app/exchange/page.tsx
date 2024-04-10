@@ -1,31 +1,5 @@
-import { Box, Heading, Text } from '@chakra-ui/react';
+import { ExchangeTemplate } from "@/src/components/exchange/exchangePage";
 
-export default function exchangePage() {
-    return (
-        <Box>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-            <Heading>exchange Page</Heading>
-        </Box>
-    );
+export default function ExchangePage() {
+    return (<ExchangeTemplate />);
 }
