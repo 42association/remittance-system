@@ -13,14 +13,14 @@ export const PointBalance = ({ balance }: PointBalanceProps) => {
                 // useBreakpointValueが使用できないため、CSSメディアクエスを使う
                 size={headingSize}
                 position="absolute"
-                top="10%"
+                top="100px"
                 left="50%"
                 transform="translateX(-50%)"
                 whiteSpace="nowrap"
                 overflow="hidden"
                 textOverflow="ellipsis"
             >
-                {balance} FT
+                {balance} RMT
             </Heading>
         </Box>
     );
