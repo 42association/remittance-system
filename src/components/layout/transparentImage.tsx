@@ -7,7 +7,7 @@ export const LogoImage = () => {
             src="/42tokyo.svg"
             alt="Logo"
             position="fixed"
-            top="20%"
+            top="15%"
             left="50%"
             transform="translateX(-50%)"
             width="200px"

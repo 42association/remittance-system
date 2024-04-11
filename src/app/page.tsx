@@ -5,6 +5,15 @@ export const metadata: Metadata = {
     title: "Home",
 };
 
+interface HomeProps {
+    balance: number;
+}
+
 export default function HomePage() {
-    return <HomeTemplate />;
+    // 本来はAPIからデータを取得する
+    const homeProps: HomeProps = {
+        balance: 100,
+    };
+
+    return <HomeTemplate balance={homeProps.balance} />;
 }
