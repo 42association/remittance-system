@@ -13,8 +13,6 @@ Webデザインの設計<br>
 
 UIは[chakara.ui](https://chakra-ui.com/docs/components)を使用して開発していきます。
 
-
-
 # 情報
 
 **ディレクトリ構成**
