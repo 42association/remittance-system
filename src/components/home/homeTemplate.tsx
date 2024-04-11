@@ -36,10 +36,6 @@ export const HomeTemplate = () => {
     };
     return (
         <Box>
-            {/* <HomeIconButton />
-            <PiggyBankButton />
-            <CoinExchangeButton />
-            <RankButton /> */}
             <Face />
             <Box overflowY="scroll">
                 <VStack spacing="10" alignItems="center">
