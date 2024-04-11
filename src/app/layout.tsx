@@ -1,8 +1,9 @@
 import { Background } from "../components/layout/background"
-import { Header } from "../components/layout/header"
+// import { Header } from "../components/layout/header"
 import { MobileContainer } from "../components/layout/mobileContainer"
 import { LogoImage } from "../components/layout/logoImage"
 import { Providers } from './global'
+import NavBar from '@/src/components/layout/NavBar'
 
 export const metadata = {
   title: 'ポイント',
@@ -22,7 +23,8 @@ export default function RootLayout({
             <Background>
               <LogoImage />
               {children}
-              <Header />
+              {/* <Header /> */}
+              <NavBar />
             </Background>
           </MobileContainer>
         </Providers>

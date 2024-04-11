@@ -18,10 +18,10 @@ export const HomeTemplate = () => {
     return (
         <Box>
             {/* <HomeIcon /> */}
-            <HomeIconButton />
+            {/* <HomeIconButton />
             <PiggyBankButton />
             <CoinExchangeButton />
-            <RankButton />
+            <RankButton /> */}
         <PointBalance balance={homeProps.balance} />
         </Box>
     );

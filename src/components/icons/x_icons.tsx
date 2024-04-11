@@ -1,8 +1,7 @@
 'use client';
-import { IconButton } from '@chakra-ui/react';
-import { FaHome, FaPiggyBank } from 'react-icons/fa';
+import { IconButton, VStack, Text } from '@chakra-ui/react';
+import { FaHome, FaPiggyBank, FaListOl } from 'react-icons/fa';
 import { TbCoins } from "react-icons/tb";
-import { FaRankingStar } from "react-icons/fa6";
 
 export const RankButton = () => {
   // クリックイベントハンドラ
@@ -12,11 +11,14 @@ export const RankButton = () => {
   };
 
   return (
-    <IconButton
-      aria-label="Rank"
-      icon={<FaRankingStar />}
-      onClick={handleClick}
-    />
+    <VStack spacing={2}>
+      <IconButton
+        aria-label="Rank"
+        icon={<FaListOl />}
+        onClick={handleClick}
+      />
+      <Text fontSize="sm">順位</Text>
+    </VStack>
   );
 };
 
@@ -28,11 +30,13 @@ export const HomeIconButton = () => {
   };
 
   return (
-    <IconButton
-      aria-label="Home"
-      icon={<FaHome />}
-      onClick={handleClick}
-    />
+    <VStack spacing={2}>
+      <IconButton
+        aria-label="Home"
+        icon={<FaHome />}
+        onClick={handleClick}
+      />
+    </VStack>
   );
 };
 
@@ -44,11 +48,14 @@ export const PiggyBankButton = () => {
   };
 
   return (
-    <IconButton
-      aria-label="PiggyBank"
-      icon={<FaPiggyBank />}
-      onClick={handleClick}
-    />
+    <VStack spacing={2}>
+
+      <IconButton
+        aria-label="PiggyBank"
+        icon={<FaPiggyBank />}
+        onClick={handleClick}
+      />
+    </VStack>
   );
 };
 
@@ -60,11 +67,13 @@ export const CoinExchangeButton = () => {
   };
 
   return (
-    <IconButton
-      aria-label="CoinExchange"
-      icon={<TbCoins />}
-      onClick={handleClick}
-    />
+    <VStack spacing={2}>
+      <IconButton
+        aria-label="CoinExchange"
+        icon={<TbCoins />}
+        onClick={handleClick}
+      />
+    </VStack>
   );
 };
 
