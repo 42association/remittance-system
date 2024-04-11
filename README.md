@@ -12,7 +12,6 @@ Webデザインの設計<br>
 -> [Figma招待リンク](https://www.figma.com/file/NrnIhw7whHrAlk8jFZksNj/42association?type=design&node-id=117%3A163&mode=design&t=XTVGXVBnsc9gW2DA-1)
 
 UIは[chakara.ui](https://chakra-ui.com/docs/components)を使用して開発していきます。
-
 # 情報
 
 **ディレクトリ構成**
