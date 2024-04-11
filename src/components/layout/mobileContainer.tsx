@@ -12,7 +12,7 @@ export const MobileContainer: React.FC<{ children: React.ReactNode }> = ({ child
                     transform="translate(-50%, -50%)"
                     maxWidth="480px"
                     width="100%"
-                    height='853.33px'
+                    height='100%'
                     overflow="hidden"
                 >
                     {children}
