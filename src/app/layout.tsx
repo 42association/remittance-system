@@ -1,7 +1,7 @@
 import { Background } from "../components/layout/background"
 import { Header } from "../components/layout/header"
 import { MobileContainer } from "../components/layout/mobileContainer"
-import { LogoImage } from "../components/layout/transparentImage"
+import { LogoImage } from "../components/layout/logoImage"
 import { Providers } from './global'
 
 export const metadata = {
