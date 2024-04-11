@@ -1,42 +1,19 @@
+// homeTemplate.tsx
 import { Box, Heading, VStack } from "@chakra-ui/react";
+import { PointBalance } from "./pointBalance";
 
+interface HomeTemplateProps {
+    balance: number;
+    // 履歴を表示するためのデータを追加
+}
 
 export const HomeTemplate = () => {
+    // 本来はAPIからデータを取得する
+    const homeProps: HomeTemplateProps = {
+        balance: 12345,
+    };
+
     return (
-        <Box
-            justifyContent="center"
-            overflowY="scroll"// 縦方向のスクロールを有効にする
-            height="100vh"
-        >
-            <VStack>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-                <Heading>Home</Heading>
-            </VStack>
-        </Box>
+        <PointBalance balance={homeProps.balance} />
     );
-}
+};
