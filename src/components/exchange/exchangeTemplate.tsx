@@ -1,8 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 
-
-export const RankTemplate = () => {
-
+export const ExchangeTemplate = () => {
     return (
         <Box
             position="absolute"
@@ -29,4 +27,4 @@ export const RankTemplate = () => {
             </Box>
         </Box>
     );
-}
+};

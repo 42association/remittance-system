@@ -6,14 +6,13 @@ export const MobileContainer: React.FC<{ children: React.ReactNode }> = ({ child
         <Box bg="black" position="relative" height="100vh">
             <Box position="fixed" top={0} bottom={0} left={0} right={0} bg="black">
                 <Box
-                    position="absolute"
+                    position="fixed"
                     top="50%"
                     left="50%"
                     transform="translate(-50%, -50%)"
-                    maxWidth="480px"
+                    maxWidth="520px"
                     width="100%"
-                    // useMediaQueryが使用できなかっため、CSSメディアクエリで代用
-                    height={{ base: '100%', md: '56.25%' }}
+                    height='100%'
                     overflow="hidden"
                 >
                     {children}
