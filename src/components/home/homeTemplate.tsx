@@ -1,5 +1,6 @@
 import { Box, Heading, VStack } from "@chakra-ui/react";
 import Face from '@/src/components/icons/face';
+import { HomeIconButton, PiggyBankButton, CoinExchangeButton, RankButton } from '@/src/components/icons/icons';
 
 
 export const HomeTemplate = () => {
@@ -10,6 +11,11 @@ export const HomeTemplate = () => {
             overflowY="scroll"// 縦方向のスクロールを有効にする
             height="100vh"
         >
+            {/* <HomeIcon /> */}
+            <HomeIconButton />
+            <PiggyBankButton />
+            <CoinExchangeButton />
+            <RankButton />
             <VStack>
                 <Face photoUrl={userPhotoUrl} userName="John Doe"/>
                 <Heading>Home</Heading>
