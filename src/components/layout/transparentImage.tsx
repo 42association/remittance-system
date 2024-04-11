@@ -14,6 +14,7 @@ export const LogoImage = () => {
             height="auto"
             opacity={0.5}
             filter="invert(100%)"
+            zIndex={-1}
         />
     );
 };
