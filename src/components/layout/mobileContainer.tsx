@@ -12,8 +12,7 @@ export const MobileContainer: React.FC<{ children: React.ReactNode }> = ({ child
                     transform="translate(-50%, -50%)"
                     maxWidth="480px"
                     width="100%"
-                    // useMediaQueryが使用できなかっため、CSSメディアクエリで代用
-                    height={{ base: '100%', md: '56.25%' }}
+                    height='853.33px'
                     overflow="hidden"
                 >
                     {children}
