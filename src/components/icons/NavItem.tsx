@@ -1,5 +1,6 @@
 import { VStack, IconButton, Text, Link } from "@chakra-ui/react";
 import React from "react";
+import NextLink from "next/link"
 import { IconType } from 'react-icons';
 
 interface NavButtonProps {
@@ -10,7 +11,7 @@ interface NavButtonProps {
 
 const NavButton: React.FC<NavButtonProps> = ({ icon, label, href }) => {
 	return (
-		<Link href={href}>
+		<Link href={href} as={NextLink}>
 			<VStack spacing={1} align="center">
 				<IconButton
 					icon={React.createElement(icon)}
