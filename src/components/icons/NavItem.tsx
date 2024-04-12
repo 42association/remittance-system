@@ -1,6 +1,7 @@
 import { VStack, IconButton, Text, Link } from "@chakra-ui/react";
 import React from "react";
 import { IconType } from 'react-icons';
+import { Icon } from '@chakra-ui/react'
 
 interface NavButtonProps {
 	icon: IconType;
@@ -12,14 +13,8 @@ const NavButton: React.FC<NavButtonProps> = ({ icon, label, href }) => {
 	return (
 		<Link href={href}>
 			<VStack spacing={1} align="center">
-				<IconButton
-					icon={React.createElement(icon)}
-					aria-label={label}
-					fontSize="30px"
-					size="xl"
-					colorScheme="grey.800"
-				/>
-				<Text fontSize="sm" textAlign="center">
+				<Icon as={icon} boxSize={10} color="#b0b0b0" />
+				<Text fontSize="sm" textAlign="center" color="#b0b0b0">
 					{label}
 				</Text>
 			</VStack>
