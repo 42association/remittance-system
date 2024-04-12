@@ -15,11 +15,11 @@ const NavBar: React.FC = () => {
                 bg="gray.800"
                 color="white"
                 w="full"
-                >
-            <NavButton icon={FaHome} label='ホーム' href='/' />
-            <NavButton icon={FaPiggyBank} label='送金' href='/send' />
-            <NavButton icon={FaCoins} label='両替' href='/exchange' />
-            <NavButton icon={FaList} label='順位' href='rank' />
+            >
+                <NavButton icon={FaHome} label='ホーム' href='/' />
+                <NavButton icon={FaPiggyBank} label='送金' href='/send' />
+                <NavButton icon={FaCoins} label='両替' href='/exchange' />
+                <NavButton icon={FaList} label='順位' href='rank' />
             </Flex>
         </Box>
     );
