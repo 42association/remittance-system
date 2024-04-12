@@ -1,4 +1,4 @@
-import { VStack, IconButton, Text, Link } from "@chakra-ui/react";
+import { VStack, Text, Link } from "@chakra-ui/react";
 import React from "react";
 import { IconType } from 'react-icons';
 import { Icon } from '@chakra-ui/react'
