@@ -1,6 +1,5 @@
 // homeTemplate.tsx
 import { Box, Heading, VStack } from "@chakra-ui/react";
-import { HomeIconButton, PiggyBankButton, CoinExchangeButton, RankButton } from '@/src/components/icons/icons';
 import { PointBalance } from "./pointBalance";
 import { TransactionHistory, HistoryItem } from "./history";
 import Face from "../icons/face";
