@@ -1,0 +1,27 @@
+.className {
+    --color-normal: #b0b0b0;
+    --color-highlight: #ffffff;
+    color: var(--color-normal);
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.className:hover {
+    opacity: 1;
+    color: var(--color-highlight);
+    text-decoration: none;
+}
+
+.className svg {
+    color: var(--color-normal);
+    transition: fill 0.3s ease;
+}
+
+.className:hover svg {
+    fill: var(--color-highlight);
+}
+
+.className p {
+    padding-top: 3px;
+    font-size: 10px;
+}
