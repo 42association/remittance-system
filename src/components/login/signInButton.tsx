@@ -3,7 +3,7 @@ import { Button, Link } from '@chakra-ui/react';
 
 export const SignInButton = () => {
     return (
-        // API認証の処理
+        // TODO: API認証の処理
         <Link href="https://profile.intra.42.fr/">
             <Button
                 width="240px"
