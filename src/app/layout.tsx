@@ -4,6 +4,7 @@ import { MobileContainer } from "../components/layout/mobileContainer"
 import { LogoImage } from "../components/layout/logoImage"
 import { Providers } from './global'
 import NavBar from '@/src/components/layout/NavBar'
+// global.cssはdefaultでimportされる
 
 export const metadata = {
   title: 'ポイント',
