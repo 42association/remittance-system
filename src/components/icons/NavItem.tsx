@@ -10,19 +10,21 @@ interface NavButtonProps {
 
 const NavButton: React.FC<NavButtonProps> = ({ icon, label, href }) => {
 	return (
-		<VStack spacing={1}>
 		<Link href={href}>
-		<IconButton
-		  icon={React.createElement(icon)}
-		  aria-label={label}
-		  fontSize="30px"
-		  size="xl"
-		  colorScheme="grey.800"
-		/>
-		<Text fontSize="sm">{label}</Text>
+			<VStack spacing={1} align="center">
+				<IconButton
+					icon={React.createElement(icon)}
+					aria-label={label}
+					fontSize="30px"
+					size="xl"
+					colorScheme="grey.800"
+				/>
+				<Text fontSize="sm" textAlign="center">
+					{label}
+				</Text>
+			</VStack>
 		</Link>
-	  </VStack>
 	);
-  };
+};
 
 export default NavButton;
